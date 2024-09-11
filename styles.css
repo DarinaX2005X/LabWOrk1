@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #bcbcbc;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,p {
     color: #444;
     margin-bottom: 15px;
     font-weight: bold;
@@ -28,6 +28,7 @@ ul {
 
 ul li {
     background: #a4a4a4;
+    color: #000;
     margin: 7px 15px;
 }
 
@@ -100,14 +101,16 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #7a7a7a;
+    border: 1px solid #447dd2;
 }
 
 th, td {
     padding: 12px;
     text-align: left;
+    color: #000;
+    background-color: #6e98d7a2;
 }
 
 th {
-    background-color: #c2c2c2;
+    background-color: #6e98d7;
 }
